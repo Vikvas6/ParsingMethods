@@ -18,3 +18,4 @@ while True:
         break
     else:
         api_pyat = res_json.get('next')
+        time.sleep(random.randint(1, 5))
